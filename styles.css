@@ -9,17 +9,15 @@ a{
 }
 
 /*NAV*/
-.navegador{
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-}
+
+
 nav{
 	font-family: scout;
 	background-color:white;
 	font-size: 20pt; 
 	display: flex;
 	justify-content: center;
+
 
 }
 
@@ -28,21 +26,50 @@ nav{
 	flex-direction: row;
 }
 
-nav h1{
-	text-align: center;
+.estudio{
+	
 	font-family: Bold;
 	font-size: 50px;
+
 }
 
-#top{
-	display: flex;
 
-background-color: black;
+
+#top{
+	
+
+background-color:#262626;
 margin:0;
+padding-top: 10px;
 font-size: 10px;
+color: white;
+
+}
+#icons{
+	display: flex;
+	flex-flow: row-reverse;
+	  justify-content: space-around;
+}
+.items{
+	display: flex;
+	justify-content: space-around;
 }
 nav a{
 	color: white;
+}
+
+
+}
+#shop{
+display: flex;
+
+}
+
+
+#arg{
+	float: right;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 
@@ -72,12 +99,16 @@ src: url(Scout-Regular.otf);
 font-family: Bold;
 src: url(Scout-Bold.otf);
 }
+@font-face {
+font-family: Light;
+src: url(Scout-Light.otf);
+}
 
 
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
 #envios{
-	margin-top: 155px;
+	margin-top: 170px;
 	padding-top: 5px;
 	font-family:Regular; 
 	display: flex;
@@ -177,16 +208,22 @@ src: url(Scout-Bold.otf);
 	display: flex;
 	justify-content: center;
 	margin:15px;
+	margin-top:0;
 
 }
 
 #four img{
-padding:  15px;
+padding:  5px;
 }
 #fosil h2{
-	font-family: scout;
-	font-size: 80px;
+	font-family: Scout;
+	font-size: 60px;
 
+}
+
+#fosil p{
+	font-family: Light;
+	font-size: 15pt;
 }
 
 #fosil{
@@ -229,15 +266,34 @@ padding:  15px;
 #cliente{
  
 display: flex;
-align-items: center;
+padding: 0;
+margin: 0;
+}
+
+.atencion{
+	display: flex;
+	justify-content: center;
+}
+.atencion h3{
+	font-family: Scout;
+	text-align: center;
+
 }
 .atencion ul{
 	list-style: none;
+	
+	
 
 }
 .atencion a{
 	text-decoration: none;
 	color: black;
+	font-size: 10pt;
+	font-family: Regular;
 
 
+}
+
+.atencion li{
+	margin-bottom: 8px;
 }
