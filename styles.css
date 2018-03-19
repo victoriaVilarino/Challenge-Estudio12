@@ -57,6 +57,12 @@ color: white;
 	display: flex;
 	justify-content: space-around;
 }
+
+#glyficon {
+	margin-left: 5px;
+	border-left: solid 1px;
+	padding-left: 3px;
+}
 nav a{
 	color: white;
 }
@@ -70,14 +76,23 @@ display: flex;
 
 
 #arg{
-	float: right;
-	margin-left: 10px;
-	margin-right: 10px;
+	
+	margin-left: 15px;
+	
+
 }
 
-
+#client p{
+	font-family: Scout;
+	font-size: 12pt;
+}
 .menu{
 	text-align: center;
+}
+
+.envios{
+	font-family: Light;
+	font-size: 10pt;
 }
 /*MAIN*/
 /*///////////////TIPOGRAFIAS//////////////////////TIPOGRAFIAS//////////////////////////////////////*/
@@ -110,8 +125,8 @@ src: url(Scout-Light.otf);
 
 
 /*///////////////////////////////////////////////////////////////////////////////////*/
-#envios{
-	margin-top: 170px;
+#gratis{
+	margin-top: 180px;
 	padding-top: 5px;
 	font-family:Regular; 
 	display: flex;
@@ -125,7 +140,7 @@ src: url(Scout-Light.otf);
 	font-size: 12pt;
 	margin-left: 0;
 }
-#envios a{
+#gratis a{
 	color: white;
 	font-family: Thin;
 }
@@ -135,7 +150,7 @@ src: url(Scout-Light.otf);
 
 	background-image: url("img/Estudio12-Challenge_0516.jpg"); 
 	background-size: cover;
- width:1500px;
+ width:1585px;
  height: 530px;
 }
 .title{
